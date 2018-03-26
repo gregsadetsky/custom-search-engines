@@ -27,6 +27,7 @@ If you prefer to maintain a clean list of custom search engines, you can use a C
 Name | Keyword | Url
 :--- | :------ | :--
 Amazon | amzn | `https://www.amazon.com/s/?field-keywords=%s`
+AWS (ec2, s3, etc.) | aw | `https://console.aws.amazon.com/%s`
 Dictionary | dict | `http://www.dictionary.com/browse/%s`
 eBay | ebay | `https://www.ebay.com/sch/i.html?_nkw=%s`
 Github | gh | `https://github.com/search?q=%s`
