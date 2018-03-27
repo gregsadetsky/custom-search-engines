@@ -39,7 +39,7 @@ Hacker News | hn | | `https://hn.algolia.com/?query=%s`
 IMDB | i | | `http://www.imdb.com/find?q=%s`
 LinkedIn  | li | | `https://www.linkedin.com/search/results/index/?keywords=%s`
 Thesaurus | thes | | `http://www.thesaurus.com/browse/%s`
-Mailinator | maili | | `https://www.mailinator.com/v2/inbox.jsp?zone=public&query=%s`
+Mailinator | maili | `maili myinbox` | `https://www.mailinator.com/v2/inbox.jsp?zone=public&query=%s`
 Wikipedia English | wp | | `https://en.wikipedia.org/wiki/%s`
 YouTube | yt | | `https://www.youtube.com/results?search_query=%s`
 Stack Overflow | so | | `http://stackoverflow.com/search?q=%s`
