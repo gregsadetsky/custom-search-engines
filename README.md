@@ -51,8 +51,8 @@ Name | Keyword | Example | Url
 :--- | :------ | :------ | :--
 Amazon Canada | amznca | | `https://www.amazon.ca/s/?field-keywords=%s`
 eBay Canada | ebayca | | `https://www.ebay.ca/sch/i.html?_nkw=%s`
-Google CAD to USD | cu | cu 100 | `https://www.google.com/search?q=%s+cad+in+usd`
-Google USD to CAD | uc | uc 100 | `https://www.google.com/search?q=%s+usd+in+cad`
+Google CAD to USD | cu | `cu 100` | `https://www.google.com/search?q=%s+cad+in+usd`
+Google USD to CAD | uc | `uc 100` | `https://www.google.com/search?q=%s+usd+in+cad`
 Linguee en -> fr | lenfr | | `https://www.linguee.com/english-french/search?query=%s`
 Linguee fr -> en | lfren | | `https://www.linguee.com/french-english/search?query=%s`
 Wikipedia French | wpfr | | `https://fr.wikipedia.org/w/index.php?search=%s`
