@@ -24,38 +24,40 @@ If you prefer to maintain a clean list of custom search engines, you can use a C
 
 ### The Search Engines
 
-Name | Keyword | Url
-:--- | :------ | :--
-Amazon | amzn | `https://www.amazon.com/s/?field-keywords=%s`
-AWS (ec2, s3, etc.) | aw | `https://console.aws.amazon.com/%s`
-Dictionary | dict | `http://www.dictionary.com/browse/%s`
-eBay | ebay | `https://www.ebay.com/sch/i.html?_nkw=%s`
-Github | gh | `https://github.com/search?q=%s`
-Gmail search | gm | `https://mail.google.com/mail/u/0/#search/%s`
-Google Drive | drive | `https://drive.google.com/drive/search?q=%s`
-Google Maps | maps | `https://www.google.com/maps/search/%s/`
-Google Images | img | `https://www.google.com/search?tbm=isch&q=%s`
-Hacker News | hn | `https://hn.algolia.com/?query=%s`
-IMDB | i | `http://www.imdb.com/find?q=%s`
-LinkedIn  | li | `https://www.linkedin.com/search/results/index/?keywords=%s`
-Thesaurus | thes | `http://www.thesaurus.com/browse/%s`
-Mailinator | maili | `https://www.mailinator.com/v2/inbox.jsp?zone=public&query=%s`
-Wikipedia English | wp | `https://en.wikipedia.org/wiki/%s`
-YouTube | yt | `https://www.youtube.com/results?search_query=%s`
-Stack Overflow | so | `http://stackoverflow.com/search?q=%s`
-Yelp | ye | `http://www.yelp.com/search?find_desc=%s`
+Name | Keyword | Example | Url
+:--- | :------ | :------ | :--
+Amazon | amzn | | `https://www.amazon.com/s/?field-keywords=%s`
+AWS | aw | `aw s3` | `https://console.aws.amazon.com/%s`
+Dictionary | dict | | `http://www.dictionary.com/browse/%s`
+eBay | ebay | | `https://www.ebay.com/sch/i.html?_nkw=%s`
+Github | gh | | `https://github.com/search?q=%s`
+Gmail search | gm | | `https://mail.google.com/mail/u/0/#search/%s`
+Google Drive | drive | | `https://drive.google.com/drive/search?q=%s`
+Google Maps | maps | | `https://www.google.com/maps/search/%s/`
+Google Images | img | | `https://www.google.com/search?tbm=isch&q=%s`
+Hacker News | hn | | `https://hn.algolia.com/?query=%s`
+IMDB | i | | `http://www.imdb.com/find?q=%s`
+LinkedIn  | li | | `https://www.linkedin.com/search/results/index/?keywords=%s`
+Thesaurus | thes | | `http://www.thesaurus.com/browse/%s`
+Mailinator | maili | | `https://www.mailinator.com/v2/inbox.jsp?zone=public&query=%s`
+Wikipedia English | wp | | `https://en.wikipedia.org/wiki/%s`
+YouTube | yt | | `https://www.youtube.com/results?search_query=%s`
+Stack Overflow | so | | `http://stackoverflow.com/search?q=%s`
+Yelp | ye | | `http://www.yelp.com/search?find_desc=%s`
 
 ### Search Engines (specific to Canada / Québec)
 
-Name | Keyword | Url
-:--- | :------ | :--
-Amazon Canada | amznca | `https://www.amazon.ca/s/?field-keywords=%s`
-eBay Canada | ebayca | `https://www.ebay.ca/sch/i.html?_nkw=%s`
-Linguee en -> fr | lenfr | `https://www.linguee.com/english-french/search?query=%s`
-Linguee fr -> en | lfren | `https://www.linguee.com/french-english/search?query=%s`
-Wikipedia French | wpfr | `https://fr.wikipedia.org/w/index.php?search=%s`
-WordReference en -> fr | enfr | `http://www.wordreference.com/enfr/%s`
-WordReference fr -> en | fren | `http://www.wordreference.com/fren/%s`
+Name | Keyword | Example | Url
+:--- | :------ | :------ | :--
+Amazon Canada | amznca | | `https://www.amazon.ca/s/?field-keywords=%s`
+eBay Canada | ebayca | | `https://www.ebay.ca/sch/i.html?_nkw=%s`
+Google CAD to USD | cu | cu 100 | `https://www.google.com/search?q=%s+cad+in+usd`
+Google USD to CAD | uc | uc 100 | `https://www.google.com/search?q=%s+usd+in+cad`
+Linguee en -> fr | lenfr | | `https://www.linguee.com/english-french/search?query=%s`
+Linguee fr -> en | lfren | | `https://www.linguee.com/french-english/search?query=%s`
+Wikipedia French | wpfr | | `https://fr.wikipedia.org/w/index.php?search=%s`
+WordReference en -> fr | enfr | | `http://www.wordreference.com/enfr/%s`
+WordReference fr -> en | fren | | `http://www.wordreference.com/fren/%s`
 
 ### Direct access shortcuts (i.e., Omnibox shortcuts that aren't search engines)
 
